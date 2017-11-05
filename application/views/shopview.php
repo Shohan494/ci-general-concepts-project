@@ -72,6 +72,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div id="body">
 			<title>My Shop</title>
 	    <h1>Welcome to my Shop!</h1>
+
+      <h3>My Todo List</h3>
+
+      <ul>
+      <?php foreach ($todo_list as $item):?>
+              <li><?php echo $item;?></li>
+      <?php endforeach;?>
+      </ul>
 	</div>
 </body>
 </html>
