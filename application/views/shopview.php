@@ -65,17 +65,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	}
 	</style>
 </head>
-<body>
 
+<body>
 <div id="container">
 	<h1>Welcome to CodeIgniter!</h1>
-
 	<div id="body">
-
-
-  			<title>My Shop</title>
-        <h1>Welcome to my Shop!</h1>
-</div>
-
+			<title>My Shop</title>
+	    <h1>Welcome to my Shop!</h1>
+	</div>
 </body>
 </html>
