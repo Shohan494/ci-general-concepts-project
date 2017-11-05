@@ -3,7 +3,7 @@ class Shop extends CI_Controller {
 
 		    public function index()
 		    {
-		            echo 'WELCOME TO THE SHOP';
+		           $this->load->view('shopview');
 		    }
         public function comments()
         {
