@@ -1,0 +1,1 @@
+<h1>This is the data stored in variable $string: <?php echo $string;?></h1>

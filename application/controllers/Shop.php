@@ -10,9 +10,13 @@ class Shop extends CI_Controller {
                // also possible as --- $this->load->view('directory_name/file_name');
 		       $this->load->view('shopview', $data);
 		}
-        public function comments()
+        public function about()
         {
-                echo 'Look at this!';
+               $data['page_title'] = 'About View';
+               $data['string'] = $this->load->view('pagename', $data, TRUE);
+
+               $this->load->view('pagename', $data);
+               $this->load->view('about', $data);
         }
         public function itemwithid1($item)
         {
