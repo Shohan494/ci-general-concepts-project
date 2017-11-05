@@ -1,0 +1,1 @@
+<h1>Page Name: <?php echo $page_title;?></h1>
